@@ -1,0 +1,21 @@
+header {
+    position: fixed;
+    top: 0;
+    min-height: 75px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #eee;
+}
+
+iframe {
+    border: 0;
+}
+
+@media (max-width: 650px) {
+    div.container {
+        display: none;
+      }
+  }
+  
